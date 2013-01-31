@@ -138,8 +138,22 @@ h6 {
 }
 p {
   margin: 1.2em 0;
-  line-height: 1.7em;
-  @include percent-font-size(16);
+  line-height: 1.4em;
+  font-size: 100%;
+}
+
+DIV.line {
+  line-height: 1.4em;
+  font-size: 100%;
+}
+DIV.line-block {
+  margin: 1.2em 0;
+}
+
+TT.docutils.literal .pre {
+    background-color: #E5ECF9;
+    border-radius: 5px 5px 5px 5px;
+    padding: 2px 4px;
 }
 ul,ol {
   margin: 1.2em 0;
